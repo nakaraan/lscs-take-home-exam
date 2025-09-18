@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #3490dc;
+  --color-secondary: #ffed4a;
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Dark Mode Setup */
+/* @custom-variant dark (&:where(.dark, .dark *))
+@layer base {} */

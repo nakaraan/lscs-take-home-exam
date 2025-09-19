@@ -96,6 +96,7 @@ const Navbar = ({ searchTerm, setSearchTerm }) => {
 
           {/* Search - Cart - Darkmode */}
           <div className="flex items-center gap-4">
+
             {/* Search bar */}
             <div className="relative group hidden sm:block">
               <input 
@@ -116,8 +117,6 @@ const Navbar = ({ searchTerm, setSearchTerm }) => {
               aria-label="Order"
             >
               <FaCartShopping className="text-xl text-white shrink-0 transition-transform duration-300 group-hover:scale-110" />
-
-              {/* keep the text in the DOM and animate width + opacity for smooth transition */}
               <span className="ml-1 max-w-0 opacity-0 overflow-hidden whitespace-nowrap transition-[max-width,opacity] duration-300 ease-in-out group-hover:max-w-[5.5rem] group-hover:opacity-100 font-medium">
                 Order
               </span>
@@ -125,15 +124,15 @@ const Navbar = ({ searchTerm, setSearchTerm }) => {
 
             {/* Darkmode Switch */}
             <DarkMode />
+
           </div>
         </div>
       </div>
+
       {/* Lower navbar */}
       <div className="flex justify-center">
         <ul className="sm:flex hidden items-center gap-4">
-          
         </ul>
-
       </div>
     </div>
   )

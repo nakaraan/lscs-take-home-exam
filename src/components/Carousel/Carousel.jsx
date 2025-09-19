@@ -97,9 +97,7 @@ return (
                 <img src={data.img} 
                 alt="Carousel Image" 
                 className="w-[400px] h-[400px] sm:w-[500px] sm:h-[500px] lg:w-[600px] lg:h-[600px] object-contain mx-auto drop-shadow [-8px_4px_6px_rgba(0,0,0,0.4)]" />
-
                   </div>
-
                 </div>
               </div>
             </div>

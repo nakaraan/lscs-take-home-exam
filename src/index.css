@@ -45,13 +45,14 @@
   --color-darkmode-dark: #0f1722;
 }
 
-
 /* HTML STYLE OVERRIDES - for dark mode correctness */
 html, body, #root {
   min-height: 100%;
   background-color: var(--color-lightmode-bg, #ffffff);
   transition: background-color 200ms ease-in-out, color 250ms ease-in-out;
 }
+
+/* Global transitions */
 *,
 *::before,
 *::after {
